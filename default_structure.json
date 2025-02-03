@@ -1,0 +1,15 @@
+{
+    "directories": [
+        "01-Introduction",
+        "02-Getting-Started",
+        "03-Building-the-Project",
+        "04-Advanced-Topics",
+        "05-Deployment",
+        "06-Bonus-Materials",
+        "07-Conclusion"
+    ],
+    "files": [
+        "README.md",
+        ".gitignore"
+    ]
+}
