@@ -1,15 +1,14 @@
 {
-    "directories": [
-        "01-Introduction",
-        "02-Getting-Started",
-        "03-Building-the-Project",
-        "04-Advanced-Topics",
-        "05-Deployment",
-        "06-Bonus-Materials",
-        "07-Conclusion"
-    ],
-    "files": [
-        "README.md",
-        ".gitignore"
-    ]
+    "sections": {
+        "Section01": ["Lecture01"],
+        "Section02": ["Lecture01", "Lecture02"],
+        "Section03": ["Lecture01", "Lecture02", "Lecture03"],
+        "Section04": ["Lecture01", "Lecture02", "Lecture03", "Lecture04"],
+        "Section05": ["Lecture01", "Lecture02", "Lecture03", "Lecture04", "Lecture05"],
+        "Section06": ["Lecture01", "Lecture02", "Lecture03", "Lecture04", "Lecture05", "Lecture06"],
+        "Section07": ["Lecture01", "Lecture02", "Lecture03", "Lecture04", "Lecture05", "Lecture06", "Lecture07"],
+        "Section08": ["Lecture01", "Lecture02", "Lecture03", "Lecture04", "Lecture05", "Lecture06", "Lecture07", "Lecture08"],
+        "Section09": ["Lecture01", "Lecture02", "Lecture03", "Lecture04", "Lecture05", "Lecture06", "Lecture07", "Lecture08", "Lecture09"],
+        "Section10": ["Lecture01", "Lecture02", "Lecture03", "Lecture04", "Lecture05", "Lecture06", "Lecture07", "Lecture08", "Lecture09", "Lecture10"]
+    }
 }
