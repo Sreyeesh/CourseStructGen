@@ -7,15 +7,12 @@ name = "coursegen"
 version = "1.0.0"
 description = "CLI tool for generating Udemy course project structures"
 readme = "README.md"
-authors = [{ name = "Sreyeesh Garimell", email = "your.email@example.com" }]
-license = { file = "LICENSE" }
-dependencies = ["click"]
+requires-python = ">=3.8"
+dependencies = [
+    "click",
+    "colorama",
+    "tqdm"
+]
 
 [project.scripts]
-coursegen = "coursegen.cli:main"
-
-[tool.setuptools]
-packages = ["coursegen"]
-
-[tool.setuptools.package-data]
-coursegen = ["*.json"]
+coursegen = "coursegen.cli:cli"
